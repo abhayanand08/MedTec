@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="medlog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="pngegg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pngegg.png">
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="sign_up">
+        <form action="connect.php" method="POST">
+            <h1>Create Account</h1>
+            <div class="social_cont">
+                <a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="social" href="https://myaccount.google.com/"><i class="fa fa-google-plus-official"></i></a>
+                <a class="social" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>or use your email for registration</p>
+            <input type="text" name="txt" placeholder="Name" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="pswd" placeholder="Password" required>
+            <button>Sign Up</button>
+        </form>
+        </div>
+        <div class="sign_In">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social_cont">
+                    <a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="social" href="https://myaccount.google.com/"><i class="fa fa-google-plus-official"></i></a>
+                    <a class="social" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p>or use your account</p>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="password" name="pswd" placeholder="Password" required>
+                <a href="#">Forgot your password</a>
+                <button>Sign In</button>
+            </form>
+            </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-right">
+                    <h1>Hello, Friend</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="./medlogin.js"></script>
+</body>
+</html>
