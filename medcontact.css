@@ -293,7 +293,7 @@ li:hover span:nth-child(1) i , li:hover span:nth-child(2){
     #nav_bar{
         display: flex;
         align-items: center;
-        height: 70px;
+        height: 76px;
         background-color: white;
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     }
