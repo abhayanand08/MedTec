@@ -168,6 +168,13 @@ body{
         width: 40%;
         margin-right: 110px;
     }
+    #nav_bar{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
     .tag_line h1{
         padding: 20px 0;
         font-size: 3.5rem;
