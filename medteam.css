@@ -65,6 +65,10 @@ section h1{
 .card .content .content_box #star{
     opacity: 0;
     transition: 0.5s;
+    margin-bottom: 10px;
+}
+.card .content .content_box #star span{
+    margin-bottom: 0;
 }
 .card:hover .content .content_box #star{
     opacity: 1;
