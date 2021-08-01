@@ -29,7 +29,7 @@ body{
 
 }
 .different{
-    color: #D86107;
+    color: #37BEEE;
 }
 .nav_right{
     width: 55%;
@@ -54,7 +54,7 @@ body{
     width:0;
     height:4px;
     border-radius: 20px;
-    background: #D86107;
+    background: #37BEEE;
     display: block;
     margin: auto;
     transition:0.45s;
@@ -67,7 +67,7 @@ body{
  #start::after{
     width: 56px;
     height:4px;
-    background: #D86107;
+    background: #37BEEE;
     margin: auto;
  }
  #signin_btn{
@@ -122,13 +122,13 @@ body{
     font-size: 3.5rem;
     color: #000;
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 25px;
 }
 .textpart p{
     font-size: 1.5rem;
     font-weight: 200;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #first_para{
     margin-bottom: 40px;
@@ -138,11 +138,11 @@ body{
     background-color: transparent;
     font-size: 1rem;
     margin-top: 30px;
-    border: 1.5px solid #D86107;
+    border: 1.5px solid #37BEEE;
     border-radius: 30px;
     color: #000;
     font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: transform 80ms ease-in;
     cursor: pointer;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
@@ -152,9 +152,10 @@ body{
     transform:scale(0.90);
 }
 .textpart button:hover{
-    background-color: #D86107;
+    background-color: #37BEEE;
 }
-.img_part{
+.img_part{ 
+    margin-top: 40px;
      background-color: #000;
      border-radius: 100%;
      height: 400px;
@@ -166,6 +167,7 @@ body{
      height: 400px;
      width: 400px;
      object-fit: cover;
+     opacity: 0.9;
      border-radius: 100%;
 }
 @media only screen and (max-width:1319px){

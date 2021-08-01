@@ -25,7 +25,7 @@ body{
 
 }
 .different{
-    color: #D86107;
+    color: #37BEEE;
 }
 .nav_right{
     width: 55%;
@@ -50,7 +50,7 @@ body{
     width:0;
     height:4px;
     border-radius: 20px;
-    background: #D86107;
+    background: #37BEEE;
     display: block;
     margin: auto;
     transition:0.45s;
@@ -63,7 +63,7 @@ body{
  #start::after{
     width: 46px;
     height:4px;
-    background: #D86107;
+    background: #37BEEE;
     margin: auto;
  }
  #signin_btn{
@@ -155,7 +155,7 @@ body{
         width: 42.5px;
         height:4px;
         margin-left: 20px;
-        background: #D86107;
+        background: #37BEEE;
         margin: auto;
      }
      .nav_left{
