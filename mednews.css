@@ -139,3 +139,31 @@ body{
         text-align: center;
     }
 }
+@media only screen and (max-width:1224px){
+    .nav_right li {
+        font-size: 0.9rem;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: 900;
+    }
+    .nav_right a {
+        text-decoration: none;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+    #start::after{
+        width: 42.5px;
+        height:4px;
+        margin-left: 20px;
+        background: #D86107;
+        margin: auto;
+     }
+     .nav_left{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        width: 18%;
+    }  
+}

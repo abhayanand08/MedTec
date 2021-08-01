@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="nav_bar" class="animate__animated animate__fadeInDown">
@@ -33,6 +34,19 @@
                 <a class="social" href="#"><i class="fa fa-twitter"></i></a>
                 <a class="social" href="#"><i class="fa fa-instagram"></i></a>
         </div>
+</section>
+<section id="appoint_form">
+    <div class="form">
+      <h2>Book your appointment</h2><span id="sec_txt">Information will be sent via E-mail</span>
+      <form action="#" >
+        <input type="text" id="fname" name="fname" placeholder="First Name*" required>
+        <input type="text" id="lname" name="lname" placeholder="Last Name*" required><br>
+        <input type="email" id="Email" name="Email" placeholder="Email Address*" required><br>
+        <input type="phone" id="Mnumber" name="Mnumber" placeholder="Phone Number">
+        <input type="text" name="date of birth" placeholder="Date of Appointment*" onfocus="(this.type = 'date')" required>
+        <button id="book">Make Appointment</button>
+      </form>
+    </div>
 </section>
 </body>
 </html>

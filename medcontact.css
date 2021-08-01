@@ -21,14 +21,15 @@ body{
     font-size: 1.6rem;
     font-weight: bold;
     font-family: 'Righteous', cursive;
-    width: 22%;
+    width: 24%;
 
 }
 .different{
     color: #D86107;
 }
 .nav_right{
-    width: 55%;
+    width: 40%;
+    margin-right: 190px;
 }
 .nav_right ul{
     display: flex;
@@ -326,4 +327,84 @@ li:hover span:nth-child(1) i , li:hover span:nth-child(2){
     .social .fa-instagram{
         padding: 10px 10.5px;
     }
+}
+@media only screen and (max-width:1224px){
+    .nav_right li {
+        font-size: 0.9rem;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: 900;
+    }
+    .nav_right a {
+        text-decoration: none;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+    #start::after{
+        width: 67.5px;
+        height:4px;
+        margin-left: 20px;
+        background: #D86107;
+        margin: auto;
+     }
+     .nav_left{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        width: 22%;
+    }  
+    .nav_right{
+        width: 39%;
+    }
+    .container{
+        position: relative;
+        min-width: 1100px;
+        min-height: 550px;
+        display: flex;
+        z-index: 1000;
+        top:40px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .contact_info{
+        position: absolute;
+        top:120px;
+        width: 280px;
+        height: calc(100% - 150px);
+        background:#0f3959;
+        z-index: 1;
+        padding: 40px;
+        margin-left: 30px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    }
+    .contact_info h2{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .contact_info .info{
+        position: relative;
+        margin: 20px 0;
+        font-size: 0.9rem;
+    }
+    .sci li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+    }
+    .container .contact_form{
+        position: absolute;
+        padding: 70px 50px;
+        background: #fff;
+        width: calc(100% - 180px);
+        margin-left: 150px;
+        padding-left: 220px;
+        height: 90%;
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+        margin-top: 70px;
+      }
 }

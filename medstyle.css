@@ -222,7 +222,7 @@ body{
     }
     .nav_right a {
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 35px;
         cursor: pointer;
     }
     #start::after{
@@ -235,9 +235,15 @@ body{
      .nav_left{
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: bold;
         font-family: 'Righteous', cursive;
         width: 18%;
-    }  
+    } 
+    #content_main{
+        text-align:left;
+        margin: 165px 60px;
+        width: 50%;
+        margin-bottom: 0;
+    } 
 }
