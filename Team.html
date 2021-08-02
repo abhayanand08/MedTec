@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="sec">
     <section> 
         <h1>Team&nbsp; Members</h1>
+        <div class="toogle"></div>
         <div class="container">
         <div class="card">
         <div class="content">
@@ -78,5 +79,12 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript" src="medteam.js"></script>
+    <script>
+    const sec = document.querySelector('.sec')
+    const toogle = document.querySelector('.toogle');
+    toogle.onclick = function(){
+        sec.classList.toggle('dark')
+    }
+</script>
 </body>
 </html>

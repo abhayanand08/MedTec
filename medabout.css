@@ -160,6 +160,7 @@ body{
 }
 .textpart button:hover{
     background-color: #37BEEE;
+    transition: 0.5s;
 }
 .img_part{ 
     margin-top: 40px;

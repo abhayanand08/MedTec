@@ -15,6 +15,22 @@ body{
     -moz-user-select:-moz-none;
     -ms-user-select:none;
     user-select:none;
+    transition: background 0.5s;
+}
+body.dark{
+    background-color: #e9f5ff;
+}
+body.dark section h1{
+    color: black;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+body.dark .card{
+    background-color: #fff;
+    opacity: 0.9;
+}
+body.dark .card .content .image_box{
+    border: 10px solid rgb(240, 239, 239);
 }
 section{
     position: relative;
@@ -26,6 +42,36 @@ section h1{
     color: #fff;
     font-family: 'Lato', sans-serif;
     opacity: 0.6;
+    transition: background 0.5s;
+}
+.toogle{
+    position: absolute;
+    top: 20px;
+    right:30px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+body.dark .toogle{
+    background-color: #161623;
+}
+.toogle::before{
+    content: '\f185';
+    font-family: fontAwesome;
+    color: #161616;
+    font-weight: 900;
+    transition: background 0.3s;
+}
+body.dark .toogle::before{
+    content: '\f186';
+    transition: 0.5s;
+    color: #fff;
 }
 .container{
     position: relative;
@@ -48,6 +94,7 @@ section h1{
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
+    transition: background 0.5s;
 }
 .card .content{
     position: relative;
@@ -81,6 +128,7 @@ section h1{
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, 0.25);
+    transition: background 0.5s;
 }
  .image_box img{
    position: absolute;
@@ -92,7 +140,7 @@ section h1{
 
 }
 .content_box h3{
-    color: #fff;
+    color:#37BEEE;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
@@ -103,8 +151,12 @@ section h1{
 }
 .content_box h3 span{
     font-size: 12px;
-    font-weight: 300;
+    font-weight: bold;
     text-transform: initial;
+    color: rgb(221, 219, 219);
+}
+body.dark .content_box h3 span{
+    color: #161623;
 }
 .card .sci{
     position: absolute;
@@ -124,6 +176,6 @@ section h1{
     opacity: 1;
 }
 .card .sci li a{
-    color: #fff;
+    color: #37BEEE;
     font-size: 24px;
 }
