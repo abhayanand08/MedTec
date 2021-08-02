@@ -2,7 +2,8 @@
     margin : 0;
     padding : 0;
 }
-body{
+body{ 
+    background-color: #FC6C85;
     -webkit-user-select:none;
     -moz-user-select:-moz-none;
     -ms-user-select:none;
@@ -13,7 +14,6 @@ body{
     align-items: center;
     height: 10%;
     background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 .nav_left{
     padding-left: 40px;
@@ -117,7 +117,6 @@ body{
         align-items: center;
         height: 70px;
         background-color: white;
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     }
     .nav_right{
         width: 40%;
