@@ -26,9 +26,12 @@ body{
     font-weight: bold;
     font-family: 'Righteous', cursive;
     width: 18%;
-
 }
-.different{
+.nav_left a{
+    text-decoration: none;
+    color: #000;
+}
+a span{
     color: #37BEEE;
 }
 .nav_right{
@@ -174,20 +177,19 @@ body{
         align-items: center;
         height: 76px;
         background-color: white;
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     }
     .tag_line h1{
         padding: 20px 0;
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         font-weight: bold;
-        font-family: 'Merienda', cursive;
+        font-family: 'Poppins', sans-serif;
         color: #fff;
         text-align: center;
     }
     .tag_line p{
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-family: 'Exo 2', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
         color: #fff;
         text-align: center;
     }
@@ -199,19 +201,22 @@ body{
     }
     .topic_btn button{
         color:#fff;
-        background: #D86107;
+        background: #37BEEE;
         font-size: 16px;
         font-weight: bold;
-        font-family: 'Lexend', sans-serif;
+        font-family: 'Poppins', sans-serif;
         padding: 14px 28px;
         margin: 0 15px;
-        border-radius: 30px;
-        border: 1.5px solid #D86107;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
         outline: none;
         transition: transform 80ms ease-in;
         cursor: pointer;
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-        0 10px 10px rgba(0, 0, 0, 0.22)
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+    #covid{
+        width: 26%;
     }
 }
 @media only screen and (max-width:1224px){
@@ -230,7 +235,7 @@ body{
         width: 42.5px;
         height:4px;
         margin-left: 20px;
-        background: #D86107;
+        background: #37BEEE;
         margin: auto;
      }
      .nav_left{
@@ -247,4 +252,7 @@ body{
         width: 50%;
         margin-bottom: 0;
     } 
+    #covid{
+        width: 26%;
+    }
 }

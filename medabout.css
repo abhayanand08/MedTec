@@ -4,7 +4,8 @@
 }
 body{  
     width: 100%;
-    background: #FBEEFF;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("IMG_20210802_091313.png");
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-user-select:none;
@@ -162,6 +163,7 @@ body{
      width: 400px;
      border: 1px solid #000;
      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+     display: none;
 }
 .img_part img{
      height: 400px;
