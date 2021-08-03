@@ -232,7 +232,7 @@ input:focus{
         width: 103px;
         height:4px;
         margin-left: 20px;
-        background: #D86107;
+        background: #37BEEE;
         margin: auto;
      }
      .nav_left{
@@ -243,4 +243,98 @@ input:focus{
         font-family: 'Righteous', cursive;
         width: 18%;
     }  
+    #appoint_form{
+        position:absolute;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin: 0 60px;
+        margin-top: 70px;
+    }
+    .form{
+        padding: 20px 10px;
+        text-align: center;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.3);
+    }
+    .form h2{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form #sec_txt{
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color:#000;
+    }
+    input {
+        border-radius:2px;
+        border: 2px solid rgb(196, 188, 188);
+        padding: 9px;
+        width: 32%;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom:20px;
+    }
+    #Email{
+        width:68.2%;
+    }
+    #book{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        width: 72%;
+        padding: 5px;
+        font-size: 1rem;
+        background:linear-gradient(to right,#5050FF,#4B4BFF);
+        border-radius:4px;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        color: #fff;
+        border: 2px solid #4B4BFF;
+        font-weight: 400;
+        
 }  
+}
+@media only screen and (max-width:1075px){
+    .social{
+        display: none;
+    }
+    #nav_bar{
+        height: 7.95%;
+    }
+    #signin_btn{
+        padding: 6px;
+        width: 100px;
+        font-size: 1rem;
+        border: 2px solid #ff416c;
+        background: linear-gradient(to right,#FD556E, #ff228c);
+        color: white;
+        border-radius: 19px;
+        cursor: pointer;
+        font-family:'Lato', sans-serif; 
+        font-weight: 900;
+    }
+    .nav_right{
+        width: 55%;
+    }
+}
+@media only screen and (max-width:1012px) {
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("images\ \(1\)\ \(1\).png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 1100px 800px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .nav_right{
+        margin-right: 80px;
+    }
+}

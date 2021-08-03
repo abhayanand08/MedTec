@@ -73,6 +73,9 @@ body.dark .toogle::before{
     transition: 0.5s;
     color: #fff;
 }
+.toogle:focus{
+    border-radius: 50%;
+}
 .container{
     position: relative;
     z-index: 1;

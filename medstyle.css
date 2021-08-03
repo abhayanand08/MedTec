@@ -27,6 +27,9 @@ body{
     font-family: 'Righteous', cursive;
     width: 18%;
 }
+#bars{
+    display: none;
+}
 .nav_left a{
     text-decoration: none;
     color: #000;
@@ -248,11 +251,378 @@ a span{
     } 
     #content_main{
         text-align:left;
-        margin: 165px 60px;
+        margin: 125px 60px;
         width: 50%;
         margin-bottom: 0;
     } 
     #covid{
         width: 26%;
+    }
+}
+@media only screen and (max-width:1161px){
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 4.0rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1075px){
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 1200px 1368px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .social{
+        display: none;
+    }
+    #nav_bar{
+        height: 7.95%;
+    }
+    #signin_btn{
+        padding: 6px;
+        width: 100px;
+        font-size: 1rem;
+        border: 2px solid #ff416c;
+        background: linear-gradient(to right,#FD556E, #ff228c);
+        color: white;
+        border-radius: 19px;
+        cursor: pointer;
+        font-family:'Lato', sans-serif; 
+        font-weight: 900;
+    }
+    .nav_right{
+        width: 55%;
+    }
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 3.0rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 14px 25px;
+        margin: 0 15px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+}
+@media only screen and (max-width:1012px) {
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 1000px 800px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .nav_right{
+        margin-right: 80px;
+    }
+}
+@media only screen and (max-width:835px) {
+    .nav_right{
+       display: none;
+    }
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 900px 1000px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    #bars{
+        display:inline-block;
+        padding: 10px 10px;
+        height: 20px;
+        font-size: 1.7rem;
+        margin-top: 2px;
+        background-color: transparent;
+        border: none;
+        margin-right: 20px;
+    }
+    .nav_left{
+        display: flex;
+        padding-left: 0;
+        padding-right: 20px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        width: 60%;
+    }
+    .nav_last{
+        width: 40%;
+    }
+    #signin_btn{
+        float: right;
+        margin-right: 20px;
+    }
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 12px 20px;
+        margin: 0 15px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+    #covid{
+        width: 30%;
+    }
+    #content_main{
+        text-align:left;
+        margin: 165px 60px;
+        margin-right: 0;
+        width: 50%;
+    }
+}
+@media only screen and (max-width:645px){
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 600px 800px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .tag_line p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    #content_main{
+        text-align:left;
+        margin: 165px 30px;
+        margin-right: 0;
+        width: 60%;
+    }
+}
+@media only screen and (max-width:538px){
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 2.2rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 9px 16px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+    #covid{
+        width: 30%;
+    }
+    #bars{
+        display:inline-block;
+        padding: 10px 10px;
+        height: 20px;
+        font-size: 1.2rem;
+        background-color: transparent;
+        border: none;
+        margin-right: 20px;
+    }
+    .nav_left{
+        display: flex;
+        padding-left: 0;
+        padding-right: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        width: 60%;
+    }
+    #nav_bar{
+        height: 5.95%;
+    }
+    .nav_left h1{
+        margin-top: 4px;
+    }
+    #signin_btn{
+        padding: 4px;
+        width: 80px;
+        font-size: 0.8rem;
+        border: 2px solid #ff416c;
+        background: linear-gradient(to right,#FD556E, #ff228c);
+        color: white;
+        border-radius: 19px;
+        cursor: pointer;
+        font-family:'Lato', sans-serif; 
+        font-weight: 900;
+    }
+}
+@media only screen and (max-width:474px){
+    body{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
+        width: 100%; 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 500px 800px;
+        background-position: center;
+        -webkit-user-select:none;
+        -moz-user-select:-moz-none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 7px 14px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+    #covid{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:434px){
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 0.6rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 5px 10px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+    #covid{
+        width: 30%;
     }
 }
