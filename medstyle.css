@@ -376,7 +376,24 @@ a span{
         margin-top: 2px;
         background-color: transparent;
         border: none;
-        margin-right: 20px;
+        margin-right: 10px;
+    }
+    .fa{
+        padding: 10px;
+        font-size: 1.7rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: none;
+        background-color: #000;
+        color: black;
+        display: block;
+        cursor: pointer;
+     }
+     .fa:hover{
+        color: black;
+        background-color: transparent;
+        border: none;
     }
     .nav_left{
         display: flex;
@@ -512,7 +529,7 @@ a span{
         font-size: 1.2rem;
         background-color: transparent;
         border: none;
-        margin-right: 20px;
+        margin-right: 8px;
     }
     .nav_left{
         display: flex;
