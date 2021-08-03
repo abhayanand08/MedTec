@@ -334,6 +334,12 @@ a span{
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
         0 3px 3px rgba(0, 0, 0, 0.22)
     }
+    #content_main{
+        text-align:left;
+        margin: 365px 60px;
+        margin-right: 0;
+        width: 50%;
+    }
 }
 @media only screen and (max-width:1012px) {
     body{
@@ -361,7 +367,7 @@ a span{
         width: 100%; 
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: 900px 1000px;
+        background-size: 900px 1100px;
         background-position: center;
         -webkit-user-select:none;
         -moz-user-select:-moz-none;
@@ -464,9 +470,9 @@ a span{
     body{
         background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
         width: 100%; 
-        height: 80vh;
+        height: 100vh;
         background-repeat: no-repeat;
-        background-size: 600px 800px;
+        background-size: 620px 1000px;
         background-position: center;
         -webkit-user-select:none;
         -moz-user-select:-moz-none;
@@ -565,7 +571,7 @@ a span{
         width: 100%; 
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: 500px 800px;
+        background-size: 500px 930px;
         background-position: center;
         -webkit-user-select:none;
         -moz-user-select:-moz-none;
@@ -641,5 +647,48 @@ a span{
     }
     #covid{
         width: 30%;
+    }
+}
+@media only screen and (max-width:345px){
+    .tag_line h1{
+        padding: 20px 0 0 0;
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .tag_line p{
+        font-size: 0.5rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .topic_btn button{
+        color:#fff;
+        background: #37BEEE;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: 'Lexend', sans-serif;
+        padding: 4px 7px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: 1.5px solid #37BEEE;
+        outline: none;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 3px 3px rgba(0, 0, 0, 0.22)
+    }
+}
+@media only screen and (max-width:325px){
+    .topic_btn button{
+        display: flex;
+    }
+    #covid{
+        margin-top: 30px;
+        width: 45%;
+        text-align: center;
     }
 }
