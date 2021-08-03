@@ -464,7 +464,7 @@ a span{
     body{
         background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("IMG_20210802_001122.png");
         width: 100%; 
-        height: 100vh;
+        height: 80vh;
         background-repeat: no-repeat;
         background-size: 600px 800px;
         background-position: center;
