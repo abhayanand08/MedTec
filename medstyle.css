@@ -407,8 +407,8 @@ a span{
         background-color: #fff;
         text-align: center;
         border-radius: 10px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-        transition: 0.5s;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        transition: 0.45s;
     }
     body.slide .slide_right.active{
         width: 220px;
@@ -418,7 +418,7 @@ a span{
     }
     body.slide .slide_right ul a{
         text-decoration: none;
-        color: #37BEEE;
+        color: #000;
         align-items: center;
         cursor: pointer;
         display: flex;
@@ -427,7 +427,7 @@ a span{
     body.slide .slide_right ul li{
         font-size: 1rem;
         font-family: 'Lato', sans-serif;
-        color: #37beee;
+        color: #000;
         font-weight: 900;
         margin-left: 15px;
         display: none;
@@ -442,10 +442,10 @@ a span{
         background-color: #FC6C85;
     }
     body.slide .slide_right .fa{
-        color: #37BEEE;
+        color: #000;
         background-color: transparent;
         border: none;
-        padding: 8px 1px;
+        padding: 8px 3px;
         cursor: pointer;
     }
     body.slide .slide_right .toggle{
@@ -463,21 +463,21 @@ a span{
     body.slide .slide_right .toggle::before{
         content: '\f054';
         font-family: fontAwesome;
-        color: #37BEEE;
+        color: #000;
         background-color: transparent;
         width: 100%;
         height: 100%;
-        line-height: 25px;
+        line-height: 26px;
         text-align: center;
     }
     body.slide .slide_right .toggle.active::before{
         content: '\f053';
         font-family: fontAwesome;
-        color: #37BEEE;
+        color: #000;
         background-color: transparent;
         width: 100%;
         height: 100%;
-        line-height: 25px;
+        line-height: 26px;
     }
     .nav_left{
         display: flex;
