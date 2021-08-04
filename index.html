@@ -17,10 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="sec">
     <section id="nav_bar" class="animate__animated animate__fadeInDown">
             <div class="nav_left">
-               <i class="fa fa-bars" id="bars"></i>
+               <div class="bars"></div>
             <a href="index.html"><h1>Med<span id="different">Tech</span></h1></a>
             </div>
             <div class="nav_right">
@@ -39,6 +39,15 @@
                     <a class="social" href="#"><i class="fa fa-instagram"></i></a>
             </div>
     </section>
+    <div class="slide_right">
+        <ul>
+         <a href="index.html"><li id="start">HOME</li></a> 
+         <a href="Appointment.html"><li>APPOINTMENT</li></a> 
+         <a href="News.html"><li>NEWS</li></a>
+         <a href="About.html"><li>ABOUT</li></a> 
+         <a href="Contact.html"><li>CONTACT</li></a> 
+        </ul>
+    </div>
     <section id="content_main">
         <div class="tag_line">
             <h1>Health is Wealth</h1>
@@ -49,5 +58,12 @@
             <button id="covid">Covid 19</button>
         </div>
     </section>
+    <script>
+        const sec = document.querySelector('.sec')
+        const toogle = document.querySelector('.bars');
+        toogle.onclick = function(){
+            sec.classList.toggle('slide')
+        }
+    </script>
 </body>
 </html>

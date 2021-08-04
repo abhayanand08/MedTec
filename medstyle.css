@@ -27,7 +27,7 @@ body{
     font-family: 'Righteous', cursive;
     width: 18%;
 }
-#bars{
+.bars{
     display: none;
 }
 .nav_left a{
@@ -112,6 +112,9 @@ a span{
     font-size: 1rem;
     background-color: black;
     border: 2px solid black;
+}
+.slide_right{
+    display: none;
 }
 #content_main{
     text-align:left;
@@ -374,32 +377,56 @@ a span{
         -ms-user-select:none;
         user-select:none;
     }
-    #bars{
+    .bars{
         display:inline-block;
         padding: 10px 10px;
         height: 20px;
         font-size: 1.7rem;
-        margin-top: 2px;
-        background-color: transparent;
-        border: none;
+        background-color:transparent;
         margin-right: 10px;
+        margin-left: 15px;
     }
-    .fa{
-        padding: 10px;
-        font-size: 1.7rem;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 100%;
-        border: none;
-        background-color: #000;
-        color: black;
+    .bars::before{
+        content: '\f0c9';
+        font-family: fontAwesome;
+        color:#000;
+    }
+    body.slide .bars::before{
+        content: '\f00d';
+        font-family: fontAwesome;
+        color:#000;
+    }
+    body.slide .slide_right{
+       transition: background 0.7s;
+       transition-delay: 0.5s;
+        position:absolute;
         display: block;
+        margin-top: 1px;
+        min-width: 150px;
+        background-color: #ff228c;
+        text-align: center;
+    }
+    body.slide .slide_right ul{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    body.slide .slide_right ul a{
+        text-decoration: none;
+        color: #fff;
         cursor: pointer;
-     }
-     .fa:hover{
-        color: black;
-        background-color: transparent;
-        border: none;
+    }
+    body.slide .slide_right ul li{
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: 900;
+    }
+    body.slide .slide_right ul li:hover{
+        color: rgb(247, 245, 245);
+    }
+    body.slide .slide_right ul li:active{
+        background-color: #FC6C85;
     }
     .nav_left{
         display: flex;
@@ -453,7 +480,7 @@ a span{
     }
     #content_main{
         text-align:left;
-        margin: 165px 60px;
+        margin: 145px 60px;
         margin-right: 0;
         width: 50%;
     }
@@ -488,7 +515,7 @@ a span{
     }
     #content_main{
         text-align:left;
-        margin: 165px 30px;
+        margin: 145px 30px;
         margin-right: 0;
         width: 60%;
     }
@@ -528,7 +555,7 @@ a span{
     #covid{
         width: 30%;
     }
-    #bars{
+    .bars{
         display:inline-block;
         padding: 10px 10px;
         height: 20px;
