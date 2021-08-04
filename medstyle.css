@@ -470,6 +470,14 @@ a span{
         line-height: 26px;
         text-align: center;
     }
+    body.slide .slide_right .toggle:focus{
+        color: #DBDAD6;
+        width: 25px;
+        height: 25px;
+        background: #fff;
+        border: 5px solid #CDCDCD;
+        border-radius: 50%;
+    }
     body.slide .slide_right .toggle.active::before{
         content: '\f053';
         font-family: fontAwesome;
@@ -478,6 +486,14 @@ a span{
         width: 100%;
         height: 100%;
         line-height: 26px;
+    }
+    body.slide .slide_right .toggle.active:focus{
+        color: #DBDAD6;
+        width: 25px;
+        height: 25px;
+        background: #fff;
+        border: 5px solid #CDCDCD;
+        border-radius: 50%;
     }
     .nav_left{
         display: flex;
