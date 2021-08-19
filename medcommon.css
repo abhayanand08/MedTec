@@ -2,7 +2,7 @@
     margin : 0;
     padding : 0;
 }
-body{ 
+#first_pg{
     background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("IMG_20210802_091313\ \(2\).png");
     width: 100%;
     height: 100vh;

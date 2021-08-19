@@ -172,6 +172,10 @@ body{
      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
      display: none;
 }
+.box_content{
+    margin-top: 50px;
+    
+}
 .img_part img{
      height: 400px;
      width: 400px;
@@ -214,7 +218,7 @@ body{
         text-align: center;
     }
     .box_content{  
-        margin-top: 80px;
+        margin-top: 40px;
         display: flex;
         padding: 0 70px;
     }
