@@ -136,11 +136,11 @@ a span{
     color: #fff;
     text-align: center;
 }
-.topic_btn{
+#topic_btn{
     text-align: center;
     padding-top: 50px;
 }
-.topic_btn button{
+#topic_btn button{
     color:#fff;
     background: #37BEEE;
     font-size: 18px;
@@ -159,10 +159,10 @@ a span{
 #covid{
     width: 26%;
 }
-.topic_btn button:active{
+#topic_btn button:active{
     transform:scale(0.90);
 }
-.topic_btn button:hover{
+#topic_btn button:hover{
     background: #56b4d6;
 }
 @media only screen and (max-width:1319px){
@@ -205,7 +205,7 @@ a span{
         width: 50%;
         margin-bottom: 0;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 16px;
@@ -321,7 +321,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 14px;
@@ -339,7 +339,7 @@ a span{
     }
     #content_main{
         text-align:left;
-        margin: 365px 60px;
+        margin: 195px 60px;
         margin-right: 0;
         width: 50%;
     }
@@ -359,6 +359,15 @@ a span{
     }
     .nav_right{
         margin-right: 80px;
+    }
+    #content_main{
+        text-align:left;
+        margin: 205px 60px;
+        margin-right: 0;
+        width: 50%;
+    }
+    #covid{
+        width: 30%;
     }
 }
 @media only screen and (max-width:835px) {
@@ -526,7 +535,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 12px;
@@ -603,7 +612,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 10px;
@@ -687,7 +696,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 9px;
@@ -723,7 +732,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 9px;
@@ -759,7 +768,7 @@ a span{
         color: #fff;
         text-align: center;
     }
-    .topic_btn button{
+    #topic_btn button{
         color:#fff;
         background: #37BEEE;
         font-size: 9px;
@@ -777,7 +786,7 @@ a span{
     }
 }
 @media only screen and (max-width:325px){
-    .topic_btn button{
+    #topic_btn button{
         display: flex;
     }
     #covid{
