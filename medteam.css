@@ -44,7 +44,7 @@ section h1{
     opacity: 0.6;
     transition: background 0.5s;
 }
-.toogle{
+#toogle{
     position: absolute;
     top: 20px;
     right:30px;
@@ -58,22 +58,22 @@ section h1{
     cursor: pointer;
     transition: background 0.3s;
 }
-body.dark .toogle{
+body.dark #toogle{
     background-color: #161623;
 }
-.toogle::before{
+#toogle::before{
     content: '\f185';
     font-family: fontAwesome;
     color: #161616;
     font-weight: 900;
     transition: background 0.3s;
 }
-body.dark .toogle::before{
+body.dark #toogle::before{
     content: '\f186';
     transition: 0.5s;
     color: #fff;
 }
-.toogle:focus{
+#toogle:focus{
     border-radius: 50%;
 }
 .container{
